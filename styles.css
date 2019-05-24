@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -35,6 +36,30 @@
     
 
 }
+
+.logo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-name-logo {
+    position: relative;
+    bottom: 1%;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.last-name-logo {
+    width: fit-content;
+    background-color:white;
+    color: black;
+    position: relative;
+    bottom: 1%;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+
 
 .home-tab2 {
     
