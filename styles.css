@@ -4,37 +4,71 @@
     text-decoration: none;
 }
 
-/* HEADER */
+/* PHONE MENU */
+
+
+.nav {
+    z-index: 0;
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+span {
+    color: #54D17A;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+
+
+
+
+/* MENU HEADER */
 
 .navbar {
     display: grid;
-    grid-template-columns:12.5% 15.5% 12.5% 14% 14.5% 16.5% 14%;
+    grid-template-columns:12.5% 15.5% 12.5% 14%  16.5% 14.5% 14%;
     grid-template-rows: 100% 0%;
 
     position: fixed;
     height: 100px;
     width: 100vw;
     background-color: #000000;
+    color: black;
 
     font-family: 'Dosis', sans-serif;
     font-size: 36px;
-    font-style: ;
 }
 
 
 .logo {
-    /* grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1; */
     position: relative;
-    z-index: 1;
+    z-index: 2;
     background-color: #000000;
     width: 15vw;
     align-content: center;
-    /* margin-left: 15% */
-    
-
 }
 
 .logo-wrap {
@@ -60,12 +94,6 @@
     
 }
 
-
-
-.home-tab2 {
-    
-}
-
 .home-tab2:hover {
     background: grey;
 }
@@ -73,7 +101,7 @@
 .home-tab-text {
     transform:skew(20deg);
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 
 .tab {
@@ -88,18 +116,14 @@
     transform: skew(160deg);
 }
 
-.about-tab {
-
-}
-
 .about-tab:hover {
     background: grey;
 }
 
 .about-tab-text {
     transform:skew(20deg) 
-
 }
+
 .about-tab:hover {
     background: grey;
 }
@@ -112,11 +136,6 @@
     background: grey;
 }
 
-
-.contact-tab {
-   
-}
-
 .contact-tab:hover {
     background: grey;
 }
@@ -126,10 +145,6 @@
 }
 .contact-tab:hover {
     background: grey;
-}
-
-.projects-tab {
-    
 }
 
 .projects-tab:hover {
@@ -148,7 +163,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
 
 }
 
@@ -157,6 +171,7 @@
 }
 
 
+/* BODY */
 
 body {
     background-color: black;
@@ -175,6 +190,7 @@ body {
     background-image: url("./BackgroundImages/BNW1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     padding-top: 100px;
     color: black;
 
@@ -183,10 +199,7 @@ body {
     align-items: center;
     font-family: 'Fjalla One', sans-serif;
     font-size: 100px
-
 }
-
-
 
 .first-name {
     position: relative;
@@ -197,29 +210,21 @@ body {
     background-color: black;
     color: white;
     position: relative;
-    bottom: 5%;
-    
+    bottom: 5%;  
 }
 
 .second-bg {
     width: 100vw;
     background-image: url("./BackgroundImages/BNW2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: cover
 }
 
 
-
-
-/* ______________ */
 /* ABOUT SECTION */
-/* -------------- */
 
 .about-section {
-    /* background: black; */
     color: white;
-    /* height: 100px; */
     width: 100%;
 
     display: flex;
@@ -234,23 +239,17 @@ body {
     background-size: cover;
 }
 
-.about-heading {
-
-}
-
 .about-text {
     margin: 15px;
     font-family: 'Kanit', sans-serif;
 }
 
-/* ______________ */
+
 /* RESUME SECTION */
-/* -------------- */
+
 
 .resume-section {
-    /* background: black; */
     color: black;
-    /* height: 100px; */
     width: 100%;
 
     display: flex;
@@ -265,23 +264,17 @@ body {
     background-size: cover;
 }
 
-.resume-heading {
-
-}
-
 .resume-text {
     margin: 15px;
     font-family: 'Kanit', sans-serif;
 }
 
-/* ______________ */
+
 /* CONTACT SECTION */
-/* -------------- */
+
 
 .contact-section {
-    /* background: black; */
     color: white;
-    /* height: 100px; */
     width: 100%;
 
     display: flex;
@@ -306,19 +299,13 @@ body {
     border: black;
     border-style: solid;
     border-width: 5px;
-      
-
 }
 
 .contact-your-email {
     display: flex;
     justify-content: center;
     font-family: 'Kanit', sans-serif;
-
 }
-
-
-
 
 .contact-your-message {
     display: flex;
@@ -335,24 +322,16 @@ body {
 
 }
 
-/* button {
-    padding: 5px;
-    font-family: 'Kanit', sans-serif;
-} */
-
 .contact-text {
     margin: 15px;
     font-family: 'Kanit', sans-serif;
 }
 
-/* ______________ */
+
 /* PROJECTS SECTION */
-/* -------------- */
 
 .projects-section {
-    /* background: black; */
     color: black;
-    /* height: 100px; */
     width: 100%;
 
     display: flex;
@@ -367,11 +346,55 @@ body {
     background-size: cover;
 }
 
-.projects-heading {
-
-}
-
 .projects-text {
     margin: 15px;
     font-family: 'Kanit', sans-serif;
+}
+
+@media only screen and (min-width: 500px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        display: none;
+        height: 100%;
+
+        font-size: 18px;
+        
+    }
+
+    label {
+        color: white;
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    .first-bg {
+        font-size: 45px;
+    }
+
+    .about-section{
+        height: 100%;
+    }
+
+    .about-text {
+        /* font-size: vh; */
+    }
 }
