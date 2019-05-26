@@ -60,7 +60,7 @@ label {
     grid-template-rows: 100% 0%;
 
     position: fixed;
-    height: 100px;
+    height: 50px;
     width: 100vw;
     background-color: #000000;
     color: black;
@@ -82,7 +82,7 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 50px;
 }
 .first-name-logo {
     position: relative;
@@ -115,7 +115,7 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 50px;
 
     background: #FFFFFF;
     border: 5px solid #000000;
