@@ -239,6 +239,11 @@ body {
     background-size: cover;
 }
 
+.about-subheading {
+    margin: 15px;
+    font-size: 14px;
+}
+
 .about-text {
     margin: 15px;
     font-family: 'Kanit', sans-serif;
@@ -394,7 +399,11 @@ body {
         height: 100%;
     }
 
+    .about-subheading {
+
+    }
+
     .about-text {
-        /* font-size: vh; */
+        font-size: 12px;
     }
 }
