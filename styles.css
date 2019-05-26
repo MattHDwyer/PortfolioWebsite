@@ -48,6 +48,42 @@ label {
     display: none;
 }
 
+.social-media-logos-phone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px
+
+}
+
+.logo-wrap-phone {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    font-size: 36px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.first-name-logo-phone {
+    position: relative;
+    bottom: 1%;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.last-name-logo-phone {
+    display: flex;
+    justify-content: center;
+    /* contain: strict; */
+    width: max-content;
+    background-color:white;
+    color: black;
+    /* position: relative; */
+    /* bottom: 1%; */
+    font-family: 'Fjalla One', sans-serif;
+}
+
 
 
 
