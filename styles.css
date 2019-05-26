@@ -202,14 +202,14 @@ body {
 }
 
 .first-name {
-    position: relative;
-    bottom: 5%;
+    background-position: center;
+
 }
 
 .last-name {
     background-color: black;
     color: white;
-    position: relative;
+    background-position: center;
     bottom: 5%;  
 }
 
