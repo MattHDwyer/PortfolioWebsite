@@ -6,22 +6,22 @@ I decided that for my portfolio website I'd only use HTML and CSS to code the si
 
 My original idea for my website involved a dynamic, single paged website, involving limited scrolling and dynamic panels that when clicked on would animate out and display the information on that page, however, after some research I discovered that this wouldn't be possible without Javascript.
 
-![alt text](./Readme/DWG1.1.jpg "Desktop Sketch!")
+![alt text](./src/ReadMe/DWG1.1.jpg "Desktop Sketch!")
 
-![alt text](./Readme/DWG2.jpg "Mobile Sketch!")
+![alt text](./src/ReadMe/DWG2.jpg "Mobile Sketch!")
 
 After some delibiration and playing around with some ideas, I decided on setting on a single page website, with scrolling, anchor links and a set menu header, that would transform once it got below a certain pixel size.
 
 I then proceeded to digitise my designs, using Figma. 
 
-![alt text](./ReadMe/FIGMA7.png "Digitised Design!")
+![alt text](./src/ReadMe/FIGMA7.png "Digitised Design!")
 
 During this process I was also able to experiment with different colour schemes. 
 
 #### Colour Scheme
 
 I struggled to find a colour scheme which I felt I could comfortably incorporate into my design, so I decided to stick with the black and white setting.
-![alt text](./Readme/FIGMA8.png "Colour Scheme Testing!")
+![alt text](./src/Readme/FIGMA8.png "Colour Scheme Testing!")
 
 #### Fonts
 To select my font style, I used the site Fontjoy: https://fontjoy.com/ to select the fonts I wanted to use.
@@ -30,7 +30,7 @@ To select my font style, I used the site Fontjoy: https://fontjoy.com/ to select
 
 Trello was used to help plan and track progress of the project. 
 
-![alt text](./Readme/Trello1.png "Trello!")
+![alt text](./src/ReadMe/Trello1.png "Trello!")
 
 ## **Development:**
 The main programming tools used for the site were Visual Studio Code, where the only two languages used were HTML and CSS. 
