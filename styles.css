@@ -6,7 +6,6 @@
 
 /* PHONE MENU */
 
-
 .nav {
     position: fixed;
     background-color: black;
@@ -195,7 +194,7 @@ body {
 
 .first-bg {
     width: 100vw;
-    background-image: url("./BackgroundImages/BNW1.jpg");
+    background-image: url("./src/BackgroundImages/BNW1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -223,7 +222,7 @@ body {
 
 .second-bg {
     width: 100vw;
-    background-image: url("./BackgroundImages/BNW2.jpg");
+    background-image: url("./src/BackgroundImages/BNW2.jpg");
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -242,7 +241,7 @@ body {
 
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    background-image: url("./BackgroundImages/BNW4.jpg");
+    background-image: url("./src/BackgroundImages/BNW4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -272,7 +271,7 @@ body {
 
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    background-image: url("./BackgroundImages/BNW7.jpg");
+    background-image: url("./src/BackgroundImages/BNW7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -297,7 +296,7 @@ body {
 
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    background-image: url("./BackgroundImages/BNW6.jpg");
+    background-image: url("./src/BackgroundImages/BNW6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -354,7 +353,7 @@ body {
 
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    background-image: url("./BackgroundImages/BNW5.jpg");
+    background-image: url("./src/BackgroundImages/BNW5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
