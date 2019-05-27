@@ -21,10 +21,10 @@ During this process I was also able to experiment with different colour schemes.
 #### Colour Scheme
 
 I struggled to find a colour scheme which I felt I could comfortably incorporate into my design, so I decided to stick with the black and white setting.
-![alt text](./src/Readme/FIGMA8.png "Colour Scheme Testing!")
+![alt text](./src/ReadMe/FIGMA8.png "Colour Scheme Testing!")
 
 #### Fonts
-To select my font style, I used the site Fontjoy: https://fontjoy.com/ to select the fonts I wanted to use.
+To select my font style I used the site Fontjoy: https://fontjoy.com/ to select the fonts I wanted to use.
 
 ## **Planning:**
 
