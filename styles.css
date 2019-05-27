@@ -211,9 +211,18 @@ label {
 
 }
 
-.social-media-logos:hover {
-    color: grey;
+.github-logo:hover {
+    opacity: .5;
 }
+
+.linkedin-logo:hover {
+    opacity: .5;
+}
+
+.twitter-logo:hover {
+    opacity: .5;
+}
+
 
 
 /* BODY */
