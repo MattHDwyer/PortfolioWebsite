@@ -93,7 +93,7 @@ label {
 
 .navbar {
     display: grid;
-    grid-template-columns:12.5% 15.5% 12.5% 14%  16.5% 14.5% 14%;
+    grid-template-columns:12.5% 13.5% 12.5% 14%  14.5% 14.5% 18%;
     grid-template-rows: 100% 0%;
 
     position: fixed;
@@ -141,7 +141,7 @@ label {
 }
 
 .home-tab2:hover {
-    background: grey;
+    background: lightgrey;
 }
 
 .home-tab-text {
@@ -163,38 +163,35 @@ label {
 }
 
 .about-tab:hover {
-    background: grey;
+    opacity: 0.75;
 }
 
 .about-tab-text {
     transform:skew(20deg) 
 }
 
-.about-tab:hover {
-    background: grey;
-}
 
 .resume-tab-text {
     transform: skew(20deg)
 }
 
 .resume-tab:hover {
-    background: grey;
+    opacity: 0.75;
 }
 
 .contact-tab:hover {
-    background: grey;
+    opacity: 0.75;
 }
 
 .contact-tab-text {
     transform:skew(20deg)
 }
 .contact-tab:hover {
-    background: grey;
+    opacity: 0.75;
 }
 
 .projects-tab:hover {
-    background: grey;
+    opacity: 0.75;
 }
 
 .projects-tab-text {
@@ -202,7 +199,7 @@ label {
 }
 
 .projects-tab:hover {
-    background: grey;
+    opacity: 0.75;
 }
 
 .social-media-logos {
