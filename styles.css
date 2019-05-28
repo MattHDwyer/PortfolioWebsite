@@ -5,6 +5,16 @@
     scroll-behavior: smooth;
 }
 
+html {
+    text-decoration: none;
+    
+}
+
+a, a:link, a:visited {
+    /* text-decoration: none; */
+    color: black;
+}
+
 /* PHONE MENU */
 
 .nav {
